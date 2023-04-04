@@ -325,7 +325,7 @@ function updation() {
 dropdown();
 function dropdown() {
   let values = "";
-  for (var i = 0; i < Data.length; i++) {
+  for (let i = 0; i < Data.length; i++) {
     values += "<option>" + Data[i].id + "</option>";
   }
   document.getElementById('id_object').innerHTML = values;
